@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+
+body {
+    background-color: rgba(71, 61, 139, 0.521);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1#principal {
+    background-color:#008080;
+    text-align: center;
+    color: #ffffff;
+}
+
+h1 {
+    color:#0000cd;
+}
+
+.destaque {
+    background-color: #2f586b;
+    color: #ffffff;
+}
