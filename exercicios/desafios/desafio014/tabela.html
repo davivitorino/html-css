@@ -22,71 +22,77 @@
             background-color: rgba(179, 179, 164, 0.5);
         }
 
+        #containner {
+            overflow-x: auto; /* overflow-x pra deixar tabela responsiva com uma barra de  rolamento*/
+        }
+
       
     </style>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th rowspan="2">area</th>
-                <th rowspan="2">disciplina</th>
-                <th colspan="2">notas</th>
-                <th rowspan="2">media</th>
-            </tr>
-            <tr>
-                <th>nota1</th>
-                <th>nota2</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th rowspan="4">exatas</th>
-                <td>matematica</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <td>fisica</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <td>quimica</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <td>biologia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr class="media">
-                <td colspan="4">media exatas</td>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <th rowspan="2">humanas</th>
-                <td>historia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr>
-                <td>geografia</td>
-                <td>0.0</td>
-                <td>0.0</td>
-                <td>0.0</td>
-            </tr>
-            <tr class="media">
-                <td colspan="4">media humanas</td>
-                <td>0.0</td>
-            </tr>
-        </tbody>
-    </table>
+    <div id="containner"> <!-- div containner para aplicar overflow na tabela-->
+        <table>
+            <thead>
+                <tr>
+                    <th rowspan="2">area</th>
+                    <th rowspan="2">disciplina</th>
+                    <th colspan="2">notas</th>
+                    <th rowspan="2">media</th>
+                </tr>
+                <tr>
+                    <th>nota1</th>
+                    <th>nota2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan="4">exatas</th>
+                    <td>matematica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>fisica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>quimica</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>biologia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr class="media">
+                    <td colspan="4">media exatas</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <th rowspan="2">humanas</th>
+                    <td>historia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr class="media">
+                    <td colspan="4">media humanas</td>
+                    <td>0.0</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </body>
 </html>
