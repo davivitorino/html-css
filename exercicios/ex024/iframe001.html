@@ -5,11 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        iframe {
+            height: 500px;
+            width: 600px;
+        }
+    </style>
 </head>
 <body>
     <h1>testando uso de iframe</h1>
     <p>
-        acessando o site do <iframe src="https://www.cursoemvideo.com" frameborder="0"></iframe> Curso em Video
+        acessando o site do <iframe src="https://www.cursoemvideo.com" frameborder="0" scrolling="no"></iframe> <a href="https://www.cursoemvideo.com">Curso em Video</a>
     </p>
+
+    <!--tamanho padrao iframe 300x150-->
+    <!--da pra configurar altura e largura na propia tag do html ou no css-->
+    <!--css tem preferência na configuração-->
+    <!--colocar link <a> para exibir em dispositivos incompativeis com iframe-->
+    <!--scrolling para a rolagem do iframe-->
 </body>
 </html>
