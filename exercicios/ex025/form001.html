@@ -12,9 +12,9 @@
     </style>
 </head>
 <body>
-    <h1>Meu Primeiro Formulário</h1>
-    <form action="cadastro.php" method="post">  <!--metodo post oculta dados da barra de endereço do navegador-->
-        <p><label for="id_nome">Nome:</label>
+    <h1>Meu Primeiro Formulário</h1>            <!--GET e POST-->
+    <form action="cadastro.php" method="GET">   <!--metodo get para dados nao sensiveis-->
+        <p><label for="id_nome">Nome:</label>   <!--metodo post para dados sensiveis-->
              <input type="text" name="nome" id="id_nome"></p>
         <p><label for="id_sobrenome">Sobrenome:</label>
              <input type="text" name="sobrenome" id="id_sobrenome"></p>
